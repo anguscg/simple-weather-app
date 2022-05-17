@@ -1,31 +1,39 @@
+
+
+.formsection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .TextInput {
-    font-size: large;
+    font-size: 2em;
     border: 1px solid #EEEEEE;
-    padding: 5px;
+    min-width: 300px;
     border-radius: 3px;
-    display: block;
-    margin: 5px auto;
+    
+    
 }
 
 .TextInput:focus {
     outline: none;
-    border-color: #719ECE;
-    box-shadow: 0 0 10px rgb(50, 100, 153);
+    border-color: white;
+    box-shadow: 0 0 10px white;
 }
 
 .Radio {
-    font-size: small;
+    
+    font-size: large;
 }
 
 .Button {
-    display: block;
-    margin: 10px auto;
+    
+    margin: 5px auto;
     padding: .5rem;
     font-size: 1em;
-    background: darkcyan;
-    border-radius: 5px;
+    width: 100%;
+    background: rgba(63, 151, 228, 0.742);
+    border-radius: 8px;
     color: white;
-    cursor: pointer;
-    margin: 5px auto;
+    cursor: default;
 
 }
